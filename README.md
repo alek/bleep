@@ -3,7 +3,7 @@ A MIDI-driven Vector Visualization Livecoding Framework
 
 ![alt text](https://raw.githubusercontent.com/alek/bleep/master/bleep.jpg)
 
-## Installation
+## Getting Started
 
 Getting started should be fairly straightforward. The only dependency is on [node.js](https://nodejs.org/en/download/). After installing 
 node, you can use npm to download all the necessary dependencies:
