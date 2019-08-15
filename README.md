@@ -29,6 +29,8 @@ You will see a master controller window with a preloaded sample graphics:
 
 By using qwerty/asdfgh keyboard keys you can simulate sending MIDI CC signals and observe changes to the rendered object.
 
+Now that you have Bleep up & running, let's get into the weeds of how to make it useful... 
+
 ## Architecture
 
 TBD
