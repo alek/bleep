@@ -33,7 +33,10 @@ server.on('error', onError);
 server.on('listening', onListening);
 
 if(process.argv[2] == "--virtualmidi") {
+  console.log("Bleep.live starting in virtual midi mode - keyboard events will be mapped to MIDI CC events")
   virtualmidi = true
+} else {
+  console.log("Bleep.live starting in external MIDI mode")
 }
 
 /**

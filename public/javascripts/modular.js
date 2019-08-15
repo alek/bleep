@@ -110,6 +110,7 @@ var setupVirtualMidiUpdateHandler = function(channel) {
 }
 
 var handleVirtualMidiEvent = function(keyCode) {
+	console.log(keyCode)
 	var midi = MidiController.getInstance();
 	var valueMap = midi.getKeyboardMap();
 	if (keyCode in valueMap) {
@@ -140,7 +141,7 @@ var toggleSlave = function() {
 //
 $( document ).ready(function() {
 
-	toggleSlave()
+	// toggleSlave()
 
 	isMaster = $("#master-toggle").is(":checked")
 
@@ -160,7 +161,6 @@ $( document ).ready(function() {
 	// setup a broadcast channel + master selection
 
 	// console.log(activeModule.midiMappings)
-
 
 	// render midi mappings for current module
 
