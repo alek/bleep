@@ -3,4 +3,7 @@ A MIDI-driven Vector Visualization Livecoding Framework
 
 ![alt text](https://raw.githubusercontent.com/alek/bleep/master/bleep.jpg)
 
+## Installation
+
+Getting started with bleep.live should be fairly straightforward. All you need is a running node.js on your computer.
 
