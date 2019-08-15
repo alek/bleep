@@ -5,7 +5,7 @@ A MIDI-driven Vector Graphics Livecoding Framework
 
 ## Getting Started
 
-Getting started should be fairly straightforward. The only dependency is on [node.js](https://nodejs.org/en/download/). After installing 
+Getting started should be fairly straightforward. The only dependency is on [node.js](https://nodejs.org/en/download/) (version 8.0 or higher). After installing 
 node, you can use npm to download all the necessary dependencies:
 
 ```
