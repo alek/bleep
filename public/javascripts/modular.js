@@ -33,21 +33,11 @@ import Semiotik7 from './modules/semiotik7.js'
 import MMLogo from './modules/mm_logo.js'
 import Github1 from './modules/github1.js'
 
-// const modules = [Test, DNA]
-// const modules = [DNA]
-// const modules = [new Foo()]
-// const modules = [new Sample()]
-// const modules = [new DNA(), new Sample()]
-// const modules = [new DNA()]
-// const modules = [new Abstract1(), new DNA(), new Bounce(), new International2()]
-
-// const modules = [new International3()]
 const modules = ["DNA", "VectorSpace", "Sunset","Bounce", "Abstract1", "Abstract2", "Abstract3", "Abstract4", 
 				 "Field1", "International1", "International2", "International3", "Minimal1", "Minimal2", "Minimal3", "Piqued1", "Piqued2",
 				 "Lines1", "Lines2"]
 
-// var moduleQueue = [new Semiotik2(), new Semiotik1()]
-var moduleQueue = [new Github1()]
+var moduleQueue = [new International3()]
 
 var stateUpdateEnabled = true
 var clockCount = 0
