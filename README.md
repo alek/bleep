@@ -23,4 +23,14 @@ Once the server is up and running, you can access it from your browser of choice
 http://localhost:3000/
 ```
 
-You will see a master controller window with a preloaded sample animation. By using qwerty/asdfgh keyboard keys you can simulate appropriate MIDI CC signals and observe changes to the rendered object.
+You will see a master controller window with a preloaded sample animation. 
+
+By using qwerty/asdfgh keyboard keys you can simulate sending MIDI CC signals and observe changes to the rendered object.
+
+## MIDI Setup
+
+TBD
+
+## Architecture
+
+TBD
