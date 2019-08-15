@@ -16,3 +16,10 @@ and the system should be ready to use. Bleep.live works best with a MIDI control
 ```
 node bin/www --virtualmidi
 ```
+
+Once the server is up and running, you can access it from your browser of choice at:
+
+```
+http://localhost:3000/
+```
+
