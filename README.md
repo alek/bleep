@@ -35,6 +35,6 @@ TBD
 
 TBD
 
-## Writing Plugins
+## Writing Modules
 
 TBD
