@@ -5,9 +5,13 @@ A MIDI-driven Vector Visualization Livecoding Framework
 
 ## Installation
 
-Getting started with bleep.live should be fairly straightforward. All you need is node.js running on your computer. 
+Getting started should be fairly straightforward. The only dependency is on [node.js](https://nodejs.org/en/download/). After installing 
+node, you can use npm to download all the necessary dependencies:
 
-Bleep.live works best with a MIDI controller, but the easiest way to get started is in the "virtual midi" mode:
+```
+npm install
+```
+and the system should be ready to use. Bleep.live works best with a MIDI controller, but the easiest way to get started is by running it in the "virtual midi" mode:
 
 ```
 node bin/www --virtualmidi
