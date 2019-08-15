@@ -27,10 +27,14 @@ You will see a master controller window with a preloaded sample animation.
 
 By using qwerty/asdfgh keyboard keys you can simulate sending MIDI CC signals and observe changes to the rendered object.
 
+## Architecture
+
+TBD
+
 ## MIDI Setup
 
 TBD
 
-## Architecture
+## Writing Plugins
 
 TBD
