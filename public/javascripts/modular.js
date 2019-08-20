@@ -32,6 +32,7 @@ import Semiotik6 from './modules/semiotik6.js'
 import Semiotik7 from './modules/semiotik7.js'
 import MMLogo from './modules/mm_logo.js'
 import Github1 from './modules/github1.js'
+import Guardian1 from './modules/guardian1.js'
 
 const modules = ["DNA", "VectorSpace", "Sunset","Bounce", "Abstract1", "Abstract2", "Abstract3", "Abstract4", 
 				 "Field1", "International1", "International2", "International3", "Minimal1", "Minimal2", "Minimal3", "Piqued1", "Piqued2",
@@ -141,9 +142,8 @@ var toggleSlave = function() {
 //
 $( document ).ready(function() {
 
-	// toggleSlave()
-
-	isMaster = $("#master-toggle").is(":checked")
+	// isMaster = $("#master-toggle").is(":checked")
+	isMaster = true
 
 	$('#master-force').on('change', 'input[type=checkbox]', function(e) {
         if (this.checked) {
