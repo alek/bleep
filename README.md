@@ -5,8 +5,9 @@ A MIDI-driven Vector Graphics Livecoding Framework
 
 ## Getting Started
 
-Getting started should be fairly straightforward. The only dependency is on [node.js](https://nodejs.org/en/download/). After installing 
-node, you can use npm to download all the necessary dependencies:
+Getting started should be fairly straightforward. The only dependency is on [node.js](https://nodejs.org/en/download/) (version 8.0 or higher). 
+
+After installing node, you can use npm to download all the necessary dependencies:
 
 ```
 npm install
@@ -23,9 +24,13 @@ Once the server is up and running, you can access it from your browser of choice
 http://localhost:3000/
 ```
 
-You will see a master controller window with a preloaded sample graphics. 
+You will see a master controller window with a preloaded sample graphics:
+
+![alt text](https://raw.githubusercontent.com/alek/bleep/master/doc/img/sample.png)
 
 By using qwerty/asdfgh keyboard keys you can simulate sending MIDI CC signals and observe changes to the rendered object.
+
+Now that you have Bleep up & running, let's get into the weeds of how to make it useful... 
 
 ## Architecture
 
@@ -38,3 +43,8 @@ TBD
 ## Writing Modules
 
 TBD
+
+## Contributing
+
+TBD
+
