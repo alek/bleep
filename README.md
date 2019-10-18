@@ -1,3 +1,5 @@
+*This is a snapshot of the Bleep project as presented at the 2019 Modular Manifestation event. Development of the project continues at https://github.com/alek/bleep.live*
+
 # [bleep.live](https://bleep.live) [![GitHub license](https://img.shields.io/badge/license-GPL-blue.svg)](https://github.com/alek/bleep/blob/master/LICENSE) 
 A MIDI-driven Vector Graphics Livecoding Framework
 
